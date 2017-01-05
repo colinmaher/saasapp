@@ -30,6 +30,8 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  # Use Bootstrap for UI and layout
+  gem 'bootstrap-sass', '3.3.7'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
