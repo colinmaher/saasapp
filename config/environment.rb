@@ -12,4 +12,4 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'secret-bastion-43732.herokuapp.com',
   :authentication => :plain,
 }
-ActionMailer::Base.delivery_method = :smtps
+ActionMailer::Base.delivery_method = :smtp
